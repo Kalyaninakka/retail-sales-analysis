@@ -1,64 +1,71 @@
 # 🛍️ Retail Sales Analysis using Python and Power BI
 
-## 📌 Project Overview
-
-This project demonstrates a complete end-to-end analysis of retail sales data. It begins with data cleaning and exploratory data analysis (EDA) using **Python** and concludes with the creation of an **interactive dashboard in Power BI**.
-
-The goal is to uncover key business insights such as monthly sales performance, top-selling categories, and region-wise trends to support strategic decision-making.
+## 📌 Objective
+A comprehensive analysis of retail sales data to uncover actionable business insights.  
+The project uses **Python** for data cleaning and exploratory data analysis (EDA), and **Power BI** for interactive dashboard creation.
 
 ---
 
-## 📂 Dataset
+## 📂 Project Files
 
-The dataset includes the following columns:
-- `Order Date`
-- `Product`
-- `Region`
-- `Quantity`
-- `Price_per_Unit`
-- `Total_Sales`
-
-📁 File used: `retail_sales_dataset.csv`
+| File Name | Description |
+|-----------|-------------|
+| `retail_sales_dataset.xlsx` | Raw retail sales dataset |
+| `final_cleaned_sales_data.xlsx` | Cleaned version used for analysis |
+| `Retail_Sale_Analysis_using_Python_and_POWER_BI.ipynb` | Jupyter notebook with data cleaning, EDA, and visualizations |
+| `README.md` | Project overview and documentation |
 
 ---
 
-## 🧹 Tools & Technologies
-
-- **Python** (Pandas, Matplotlib, Seaborn)
-- **Jupyter Notebook**
-- **Power BI**
-- Optional: Excel for basic preprocessing
+## 🛠️ Tools & Technologies
+- **Python**: pandas, matplotlib, seaborn
+- **Excel**: Data preview, exploration
+- **Power BI**: Dashboard creation
+- **Jupyter Notebook**: Step-by-step analysis
+- **GitHub**: Project hosting and version control
 
 ---
 
-## 🔍 Steps Performed
+## 🔍 Key Steps
 
-### 1. 🧼 Data Cleaning using Python
-- Handled missing and duplicate values
-- Converted date columns to datetime format
-- Ensured numerical columns were correctly typed
+1. **Data Cleaning**
+   - Removed missing and duplicate values
+   - Converted data types
+   - Filtered irrelevant records
 
-### 2. 📊 Exploratory Data Analysis (EDA)
-- Monthly sales trends (Line Chart)
-- Regional performance (Bar Chart)
-- Product category-wise sales (Donut Chart)
-- Correlation between Quantity, Sales, and Profit
+2. **Exploratory Data Analysis (EDA)**
+   - Category-wise and region-wise sales performance
+   - Monthly and yearly trend analysis
+   - Return rates and discount impacts
 
-### 3. 📈 Power BI Dashboard
-- Interactive visuals using slicers (Region, Category)
-- Highlighted top-performing categories and regions
-- Used colors and KPIs to enhance storytelling
+3. **Dashboard Creation**
+   - Created an interactive Power BI dashboard with:
+     - Sales KPIs
+     - Product and region filters
+     - Monthly trends, pie charts, and bar graphs
+
+---
+
 
 ---
 
 ## 📈 Business Insights
-
-- Sales peak during November and December, indicating strong year-end performance.
-- The **North region** contributed the highest total sales.
-- **Electronics and Office Supplies** were the top-selling categories.
-- Discounts had a strong influence on sales volume in certain months.
+- 📅 Peak sales occurred during November and December (holiday season)
+- 🏆 Category A was the best-selling product line
+- 🌍 Region X consistently underperformed and may need better marketing
+- 🔁 Higher return rates were noticed in Q1, possibly due to overstocking
 
 ---
+
+## 🙋‍♀️ Developed by
+**Kalyani Nakka**  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/kalyaninakka)  
+- 🔗 [GitHub](https://github.com/Kalyaninakka)
+
+---
+
+## 📄 License
+This project is open-source and available for educational and learning purposes.
 
 ## ✅ Outcome
 
